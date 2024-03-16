@@ -81,3 +81,10 @@
         padding: 4rem 10rem;
     }
 }
+.project-item {
+    img:hover {
+        transform: scale(1.1);
+        filter: brightness(90%);
+        transition: transform 0.3s ease, filter 0.3s ease;
+    }
+}
