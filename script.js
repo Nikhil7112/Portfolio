@@ -26,3 +26,10 @@ window.onscroll = ()=>{
     menubar.classList.remove('bx-x');
     Navbar.classList.remove('active')
 }
+
+const sendButton = document.getElementById('btn');
+sendButton.addEventListener('click', () => {
+  
+    alert('Thanks for Contacting');
+  
+});
